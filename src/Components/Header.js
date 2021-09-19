@@ -17,13 +17,15 @@ export default class Header extends Component {
     render() {
         return (
             <>
-            <Navbar fixedtop="true" collapseOnSelect expand="md" bg="danger" variant="dark">
+            <Navbar fixedtop="true" collapseOnSelect expand="md" bg="secondary" variant="dark">
                 <Container>
                 <Navbar.Brand>
-                    <h1><strong>TeamToDo List</strong></h1>
+                    <h1><strong>Todo List</strong></h1>
                 </Navbar.Brand>
-                <div className="headerButtons">
+                <div class="center">
                     <Button inline = "true" variant="light" onClick={addtodo}><i className="fas fa-plus"></i>Add TODO</Button>
+                </div>
+                <div className="headerButtons">
                     <Button inline = "true" variant="light" onClick={exit}>Exit</Button>
                 </div>
                 </Container>

@@ -1,5 +1,5 @@
 body{
-    background: #dcd6f7;
+    background: rgb(221, 216, 216);
 }
 
 .LoginForm,
@@ -18,9 +18,8 @@ body{
 
 .LoginFormName,
 .RegistrationFormName{
-    background: #000000;
     padding: 1%;
-    color: white;
+    color: black;
 }
 
 .LoginForm input{
@@ -36,7 +35,7 @@ body{
 .LoginForm button{
     width: 50%;
     background: none;
-    border: 2px solid #0e5d9186;
+    border: 2px solid gray;
     border-radius: 10px;
     outline: none !important;
     transition: .5s;
@@ -45,7 +44,7 @@ body{
 .RegistrationForm button{
     width: 50%;
     background: none;
-    border: 2px solid #0e5d9186;
+    border: 2px solid #8f969b;
     border-radius: 10px;
     outline: none !important;
     transition: .5s;
@@ -60,12 +59,12 @@ body{
 }
 
 .LoginForm button:hover{
-    background: #0e5d9186;
+    background: #8f969b;
     color: white;
 }
 
 .RegistrationForm button:hover{
-    background: #0e5d9186;
+    background: #8f969b;
     color: white;
 }
 
